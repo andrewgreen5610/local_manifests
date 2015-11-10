@@ -1,39 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
- <manifest>
-  <!-- CMRemix Github remote -->
-  <remote  name="cmR"
-           fetch="https://github.com/CMRemix/" />
-  
-  <!-- Generic CMRemix ssh Bitbucket remote -->
-  <remote  name="private-bb"
-           fetch="ssh://git@bitbucket.org/CMRemix" />
- 
-   <!-- Generic CMRemix Github remote -->
-  <remote  name="bb"
-           fetch="https://bitbucket.org/CMRemix/" />
-  
-  <!-- Generic CMRemix GitLab remote -->
-  <remote  name="gl"
-           fetch="https://gitlab.com/CMRemix" />
-  
-  <!-- Omni Rom Github remote -->
-  <remote  name="omni"
-           fetch="https://github.com/omnirom"
-           review="gerrit.omnirom.org" />
-
-   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
-   <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
-   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
-   <project name="fat-tire/android_kernel_samsung_trlte" path="kernel/samsung/trlte" remote="github" />
-   <project name="fat-tire/android_device_samsung_trltexx" path="device/samsung/trltexx" remote="github" />
-   <project name="fat-tire/android_device_samsung_trltetmo" path="device/samsung/trltetmo" remote="github" />
-   <project name="fat-tire/android_device_samsung_trlte-common" path="device/samsung/trlte-common" remote="github" />
-   <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" revision="cm-11.0"/>
-
-   <!-- Replaced projects -->
-   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
-   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="arm-eabi-4.9" remote="bb" revision="master" />
-   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="bb" revision="master" />
-
- </manifest>
+<manifest>
+  <remote fetch="https://github.com/CMRemix/" name="cmR" />
+  <remote fetch="ssh://git@bitbucket.org/CMRemix" name="private-bb" />
+  <remote fetch="https://bitbucket.org/CMRemix/" name="bb" />
+  <remote fetch="https://gitlab.com/CMRemix" name="gl" />
+  <remote fetch="https://github.com/omnirom" name="omni" review="gerrit.omnirom.org" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
+  <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
+  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
+  <project name="fat-tire/android_kernel_samsung_trlte" path="kernel/samsung/trlte" remote="github" />
+  <project name="fat-tire/android_device_samsung_trltexx" path="device/samsung/trltexx" remote="github" />
+  <project name="fat-tire/android_device_samsung_trltetmo" path="device/samsung/trltetmo" remote="github" />
+  <project name="fat-tire/android_device_samsung_trlte-common" path="device/samsung/trlte-common" remote="github" />
+  <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" revision="cm-11.0" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+  <project name="arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="bb" revision="master" />
+  <project name="arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="bb" revision="master" />
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-13.0" />
+</manifest>

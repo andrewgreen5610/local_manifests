@@ -13,9 +13,9 @@
   <project name="CMRemix/android_device_samsung_trltetmo" path="device/samsung/trltetmo" remote="github" />
   <project name="CMRemix/android_device_samsung_trlte-common" path="device/samsung/trlte-common" remote="github" />
   <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" revision="cm-11.0" />
+  <project name="CMRemix/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-13.0" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
   <project name="arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="bb" revision="master" />
   <project name="arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="bb" revision="master" />
-  <project name="CMRemix/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-13.0" />
 </manifest>

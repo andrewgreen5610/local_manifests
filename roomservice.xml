@@ -12,7 +12,7 @@
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-13.0" />
-  <project name="CMRemix/android_kernel_samsung_trlte" path="kernel/samsung/trlte" remote="github" revision="cm-13.0" />
+  <project name="CMRemix/android_kernel_samsung_trlte" path="kernel/samsung/trlte" remote="github" revision="cm-13.0-sm" />
   <project name="CMRemix/android_device_samsung_trltexx" path="device/samsung/trltexx" remote="github" revision="cm-13.0" />
   <project name="CMRemix/android_device_samsung_trltetmo" path="device/samsung/trltetmo" remote="github" revision="cm-13.0-cm" />
   <project name="CMRemix/android_device_samsung_trlte-common" path="device/samsung/trlte-common" remote="github" revision="cm-13.0-cm" />

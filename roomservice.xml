@@ -7,7 +7,6 @@
   <project name="CMRemix/android_kernel_lge_msm8996"    path="kernel/lge/msm8996"    remote="github" revision="cm-14.1" />
   <project name="CMRemix/android_device_qcom_common"    path="device/qcom/common"    remote="github" revision="cm-14.1" />
   <project name="CMRemix/proprietary_vendor_qcom_binaries"        path="vendor/qcom/binaries"  remote="github" revision="cm-14.1" />
-  <project name="CMRemix/android_prebuilts_clang_linux-x86_host_sdclang-3.8" path="prebuilts/clang/linux-x86/host/sdclang-3.8" remote="github" revision="cm-14.1" />
   <project name="CMRemix/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" remote="github" revision="cm-14.1" />
   <project name="CMRemix/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" remote="github" revision="cm-14.1" />
   <project name="CMRemix/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" remote="github" revision="cm-14.1" />
